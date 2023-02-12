@@ -22,9 +22,11 @@ function App() {
             .then((res) => {
              
              setJoke(res.data.body[0].setup)
+
              setTimeout(() => {
               setPunchline(res.data.body[0].punchline)
              },9000);
+
              setPunchline("");
             })
             .catch((err) => console.log(err));
