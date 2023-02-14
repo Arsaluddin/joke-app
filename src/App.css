@@ -1,3 +1,10 @@
+body{
+  margin-top: 40px;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e9ef76e2-0695-41ff-bdfb-32a7c698ccab/ddcljs4-086d77c5-c8c2-4e48-932f-8d538daba840.png/v1/fill/w_1280,h_2276,q_80,strp/amoled_minimal_cat_wallpaper_by_cehok_ddcljs4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI3NiIsInBhdGgiOiJcL2ZcL2U5ZWY3NmUyLTA2OTUtNDFmZi1iZGZiLTMyYTdjNjk4Y2NhYlwvZGRjbGpzNC0wODZkNzdjNS1jOGMyLTRlNDgtOTMyZi04ZDUzOGRhYmE4NDAucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Wy0Eypt9gog8w4RUTYSZc5yz2aC7tjfg6zOa9om-ui4);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .container{
   display: flex;
   flex-direction: column;
@@ -10,6 +17,7 @@
   align-items: center;
   margin-top: 20px;
   padding: 40px;
+  color: white;
 }
 
 .btn{

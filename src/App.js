@@ -32,9 +32,9 @@ function App() {
             .catch((err) => console.log(err));
     }
 
-    useEffect(() => {
-      getjoke()
-    }, [])
+    // useEffect(() => {
+    //   getjoke()
+    // }, [])
     
 
   return (
