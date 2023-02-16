@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { useState,useEffect } from 'react';
+import { useState } from 'react';
 import './App.css';
 
 function App() {
@@ -40,9 +40,11 @@ function App() {
   return (
     <div className="App">
       <div className='container'>
+          <h1> Press Button for new Joke</h1>
+          <h1> And Wait for The puuchline</h1>
           <div className='joke'>
-             <h1>{joke}</h1>
-             <h1>{punchline}</h1>
+             <h2>{joke}</h2>
+             <h2>{punchline}</h2>
           </div>
           <button onClick={getjoke} className="btn">new joke</button>
       </div>
