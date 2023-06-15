@@ -41,7 +41,7 @@ function App() {
     <div className="App">
       <div className='container'>
           <h1> Press Button for new Joke</h1>
-          <h1> And Wait for The puuchline</h1>
+          <h1> And Wait for The punchline</h1>
           <div className='joke'>
              <h2>{joke}</h2>
              <h2>{punchline}</h2>
